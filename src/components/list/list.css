@@ -1,0 +1,54 @@
+.list{
+    overflow: hidden;
+}
+.list-content{
+    margin-top: 3rem;
+}
+.list-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+}
+.list-content ul li{
+    width: 50%;
+    position: relative;
+    margin-top: 12px;
+}
+/* .list-content ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+} */
+.list-content ul li  .img1{
+    width: 10rem;
+    height: 11rem;
+}
+.list-content ul li  .img2{
+    width: 1.4063rem;
+    height: 1.375rem;
+    position: absolute;
+    bottom: 4px;
+    right: 26px
+}
+.list-content ul li  h3{
+        font-size: 13px;
+        line-height: 1.2em;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #442818;
+        width: 71%;
+        margin-left: 14px;
+}
+.list-content ul li  h3 span{
+    display: block;
+}
+.list-content ul li .span-price{
+    color: #BB9772;
+    display: block;
+    margin-top: 5px;
+    max-width: 80%;
+}

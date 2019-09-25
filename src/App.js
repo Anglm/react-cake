@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Home,List,Detail,Login,Buycar,Center} from "./components"
+import {Route,Switch,Redirect,withRouter} from "react-router-dom"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const NotFound = ()=><div>not found 404</div>
+
+class App extends React.Component{
+  render(){
+    return (
+      <div className="App">
+          <Switch>
+            <Route path="/home" component={Home}/>
+            <Redirect from="/" to="/home" exact/>
+            <Route path="/list/:type" component={List} />
+            <Route path="/list/1" component={List} exact />
+            <Redirect from="/list" to="/list/1" exact/>
+            <Route path="/detail" component={Detail}/>
+            <Redirect from="/detail" to="/detail/1/5" exact/>
+            <Route path="/login" component={Login}/>
+            <Route path="/buycar" component={Buycar}/>
+            <Route path="/center" component={Center}/>
+            <Route component={NotFound}/>
+          </Switch>
+      </div>
+    )
+  }
 }
-
-export default App;
+export default withRouter(App)

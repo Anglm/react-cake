@@ -1,0 +1,204 @@
+.buycar{
+    overflow: hidden;
+}
+.buycar-content{
+    margin-top: 3rem;
+    overflow: hidden;
+    background-color:#F7F7F7;
+}
+/*--------------------------------------------*/
+.cart-object-goods-item{
+    background-color: #fff;
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+.cart-pro-list li {
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    padding-bottom: 15px;
+    position: relative;
+    font-size: 12px;
+    color: #442818;
+    margin:0;
+    margin-top: 10px
+}
+.cart-pro-box {
+    height: 120px;
+    overflow: hidden;
+    line-height: 15px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #442818;
+}
+.cart-pro-box a{
+    display: block;
+    width: 50%;
+    height: 120px;
+    float: left;
+    padding-left: 50px;
+}
+.cart-pro-box img {
+    display: block;
+    float: left;
+    width: 109px;
+    height: 120px;
+    border: 0;
+}
+.cart-pro-box .cart-pro-title {
+    padding-left: 128px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #442818;
+    width: 50%;
+    float: right;
+}
+.cart-pro-box h2 {
+    padding-top: 15px;
+    padding-bottom: 6px;
+    font-size: 100%;
+    font-weight: normal;
+    text-align: left;
+}
+.cart-pro-box h2 span {
+    font-size: 12px;
+    color: #442818;
+    width: 60%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.cart-object-goods-item .cart-select-pound {
+    display:block;
+    padding: 2px 2px 1px 5px;
+    margin-top: 2px;
+    border: 1px solid #E2E2E2;
+    color: #969696; 
+    float: left;
+    width: 76%;
+}
+.cart-object-goods-item{
+    position: relative;
+}
+.cart-object-goods-item .cart-select-pound i {
+    display: inline-block;
+    height: 9px;
+    width: 18px;
+    background: url(/img/B1.png) no-repeat center center;
+    background-size: 11px;
+}
+.cart-pro-box .cart-price {
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+
+.cart-pro-number {
+    position: absolute;
+    height: 26px;
+    width: 78px;
+    overflow: hidden;
+    right: 27px;
+    bottom: 64px;
+}
+.cart-pro-number a {
+    background: #F0F0F0;
+    font-weight: bolder;
+    display: block;
+    float: left;
+    height: 26px;
+    width: 26px;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.cart-pro-number .action-quantity-minus img{
+    margin-top: 12px;
+    display: block;
+    width: 12px;
+    margin-left: 7px;
+}
+.action-quantity-plus img{
+    margin-top: 8px;
+    display: block;
+    width: 12px;
+    margin-left: 7px;
+}
+.cart-pro-number span {
+    background: #F7F7F7;
+    color: #969696;
+    font-size: 12px;
+    display: block;
+    float: left;
+    height: 26px;
+    width: 26px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+}
+
+/*-------------------------------------------------place-order-bottom--*/
+.place-order-bottom {
+    height: 44px;
+    overflow: hidden;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000000;
+    box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.10);
+}
+.place-order-bottom .order-delete-but {
+    display: block;
+    float: left;
+    height: 44px;
+    width: 44px;
+    background: url(/themes/wap/img/cart-order-delete.png) no-repeat center center;
+    background-size: 14px auto;
+}
+.place-order-bottom .order-delete-but {
+    display: block;
+    float: left;
+    height: 44px;
+    width: 44px;
+    background: url(/img/B4.png) no-repeat center center;
+    background-size: 14px auto;
+}
+.place-order-bottom .place-order-but {
+    display: block;
+    float: right;
+    height: 44px;
+    width: 96px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    background: #442818;
+}
+.place-order-bottom .pay-money {
+    float: right;
+    margin-right: 12px;
+}
+.place-order-bottom .pay-money>div {
+    float: left;
+    height: 44px;
+    text-align: right;
+}
+.place-order-bottom .pay-money>div span:first-child {
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.place-order-bottom .pay-money>div span:last-child {
+    display: block;
+    color: #707070;
+    font-size: 10px;
+    line-height: 16px;
+}

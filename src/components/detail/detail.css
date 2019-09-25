@@ -1,0 +1,205 @@
+.Detail{
+    overflow: hidden;
+}
+.detail-content{
+    margin-top: 3rem;
+}
+/*------------------------------nt-carousel----*/
+.detail-carousel .slick-slide {
+    text-align: center;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  .detail-carousel .slick-list .slick-slide{
+      height: 320px;
+  }
+  .detail-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  .detail-carousel img{
+      width: 375px;
+      height: 320px;
+  }
+/*-------------------------------------------pro-title---*/
+.pro-title {
+    padding: 0 24px;
+    color: #333;
+    font-size: 12px;
+    text-align: left;
+}
+.pro-title h3 {
+    font-size: 24px;
+    color: #333;
+    line-height: 29px;
+    padding-top: 10px;
+    margin:0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pro-title span {
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+}
+.top-price {
+    font-size: 22px;
+    color: #C69C6D;
+    padding-left: 24px;
+    height: 30px;
+    line-height: 30px;
+    display: -webkit-box;
+}
+/*------------------------------------------------pro-details-label---*/
+.pro-details-label {
+    padding: 5px 24px;
+    font-size: 12px;
+    color: #442818;
+}
+.pro-details-label a {
+    display: inline-block;
+    line-height: 18px;
+    color: #D5BFA7;
+    padding: 0 12px;
+    border: 1px solid #D5BFA7;
+    border-radius: 100px;
+    margin-right: 6px;
+}
+/*-------------------------------------------------------选择产品大小-*/
+.select-card {
+    background: #FFF;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
+    border-radius: 4px;
+    margin: 0 20px;
+    overflow: hidden;
+    padding: 0;
+    font-size: 12px;
+    color: #442818;
+}
+.select-specifications {
+    border-bottom: none;
+    background: rgba(199,178,153,0.20);
+    margin: 0;
+    padding-left: 14px;
+    padding: 0;
+    font-size: 12px;
+    color: #442818;
+}
+.select-specifications li{
+    height: 45px;
+    font-size: 13px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+}
+.select-specifications li a{
+    display: block;
+    font-size: 13px;
+    color: #442818;
+    text-align: left;
+    margin-left: 5px;
+}
+.select-specifications li i{
+    display:block;
+    height: 15px;
+    width: 10px;
+    background: url(/img/del2.png);
+    float: right;
+    margin-top: 15px;
+    background-size: cover;
+    margin-right: 15px;
+    color: #442818;
+}
+
+.select-card .details-options-card {
+    margin: 18px 14px 8px;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 0;
+    font-size: 12px;
+    color: #442818;
+}
+.details-options {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #442818;
+}
+.details-options li {
+    float: left;
+    width: 50%;
+    margin-bottom: 4px;
+}
+
+.store-info {
+    background-color: #fff;
+    margin-bottom: 14px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #442818;
+}
+.store-info li {
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.store-info li img {
+    height: 15px;
+    width: auto;
+    vertical-align: top;
+    float: left;
+    margin-left: 17px;
+}
+.store-info li div {
+    width: 100%;
+    float: left;
+    margin-left: -129px;
+}
+.store-info li p {
+    padding-left: 129px;
+    padding-right: 15px;
+}
+/*-------------------------------------------details-img----*/
+.details-img {
+    margin-top: 12px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.details-img img {
+    display: block;
+    width: 100%;
+    float: left;
+}
+/*-------------------------------buy-button*/
+.buy-button{
+    width: 100%;
+    height: 2.875rem;
+    border-top: 1px solid;
+    position: fixed;
+    bottom: 0;
+}
+.buy-button .buy1{
+    float: left;
+    width: 50%;
+    height: 2.875rem;
+    line-height: 2.875rem;
+    font-size: 0.9375rem;
+    margin: 0;
+    background: #fff;
+    color: #442818;
+    border: none;
+}
+.buy-button .buy2{
+    float: left;
+    width: 50%;
+    height: 2.875rem;
+    line-height: 2.875rem;
+    font-size: 0.9375rem;
+    margin: 0;
+    color: #fff;
+    background: #442818;
+    border: none;
+}

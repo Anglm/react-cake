@@ -1,0 +1,6 @@
+export {default as Home} from "./home"
+export {default as List} from "./list"
+export {default as Detail} from "./detail"
+export {default as Login} from "./login"
+export {default as Buycar} from "./buycar"
+export {default as Center} from "./center"
